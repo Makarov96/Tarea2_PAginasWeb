@@ -1,0 +1,27 @@
+.boton {
+    border: none;
+    color: white;
+    text-align: center;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cuadrado.uno {
+    width: 250px;
+    height: 200px;
+    border: 4px solid black;
+    display: block;
+    margin: 15px;
+    background-color: blue;
+}
+
+.cuadrado.dos {
+    background-color: green;
+    width: 180px;
+    height: 150px;
+}
+
+.moving {
+    background-color: red !important;
+}
