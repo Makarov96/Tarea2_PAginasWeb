@@ -11,6 +11,7 @@
     <script src="./jquery-ui-1.12.1/jquery-ui.min.js"></script>
     <link rel="stylesheet" href="./jquery-ui-1.12.1/jquery-ui.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="./threadify-master/dist/threadify.js"></script>
     <script src="./js/index.js"></script>
     <script src="./js/eventos.js"></script>
     <title>Document</title>
@@ -23,22 +24,76 @@
     <div class="container">
 
         <hr>
+        <h1>Eventos</h1>
         <div class="d-block">
             <button id="button" class="boton"><i class="material-icons">list </i></button>
             <button id="button_dos" class="boton"><i class="material-icons">notifications_none</i></button>
+            <button id="button_tres" class="boton"><i class="material-icons">touch_app</i></button>
         </div>
         <div id="info"></div>
         <hr>
-        <h1>Drag and Drop</h1>
-        <hr>
-        <div class="cuadrado uno" id="recibir">
-            <h1> Mover aca!!</h1>
+        <div>
+            <h1>Canvas</h1>
+            <hr>
+
+            <canvas id="myCanvas" width="200" height="100" class="canvas">
+            </canvas>
+
+
+        </div class="d-block">
+
+        <div>
+            <hr>
+            <h1>Drag and Drop</h1>
+            <hr>
+            <div class="cuadrado uno" id="recibir">
+                <h1> Mover aca!!</h1>
+            </div>
+
+            <div class="cuadrado dos" id="mover">
+
+                <p>Hola desde un parrafo</p>
+            </div>
+            <hr>
         </div>
 
-        <div class="cuadrado dos" id="mover">
 
+        <div>
+            <hr>
+            <h1>Geolocation</h1>
+            <hr>
+
+
+            <div id="container">
+                <button class="boton" id="geo"><i class="material-icons">location_on</i></button>
+                <br>
+                <span id="loading">Cargando...</span>
+                <p id="demo"></p>
+
+            </div>
+
+            <hr>
         </div>
+
         <hr>
+        <div>
+            <button class="btn btn-dark" id="tridy">thridify</button>
+            <button class="btn btn-dark" id="local">LocalStorage</button>
+        </div>
+
+        <div>
+            <h1>File</h1>
+            <img src="./descarga.jpg" alt="" height="50px" width="50px">
+        </div>
+
+        <hr>
+        <div>
+            History
+            <hr>
+            <button id="his" class="btn btn-dark">
+                 History
+            </button>
+        </div>
     </div>
 
 
